@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PanaTaxi</string>
+    <!-- Buttons -->
+    <string name="calculate_button">CALCULAR</string>
+    <!-- Titles -->
+    <string name="title_location">Localización</string>
+    <string name="title_details">Cargos Especiales</string>
+    <string name="title_datehour">Fecha/Hora</string>
+    <!-- Location -->
+    <string name="originloc_label">Ubicacion</string>
+    <string name="destinyloc_label">Destino</string>
+    <string name="originloc_placeholder">Ej. La Doña</string>
+    <string name="destinyloc_placeholder">Ej. Brisas del Golf</string>
+    <!-- Schedule -->
+    <string name="Date_label">Fecha de la carrera</string>
+    <string name="Time_label">Fecha de la carrera</string>
+    <string name="currDate_txt">Usar fecha actual</string>
+    <string name="currTime_txt">Usar hora actual</string>
+    <!-- Buttons -->
+    <string name="passenger_label">Cantidad de pasajeros</string>
+    <string name="piquera_label">Llamada a piquera</string>
+
+</resources>

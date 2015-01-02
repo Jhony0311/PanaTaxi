@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="32dp"
+        android:textColor="@color/accent_color"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textAllCaps="true"
+        android:text="@string/title_location"
+        android:drawableLeft="@drawable/ic_map_black_36dp"
+        android:id="@+id/location_title" />
+
+    <TextView
+        android:id="@+id/origin_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_dark_color"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="@string/originloc_label" />
+
+    <AutoCompleteTextView
+        android:id="@+id/origin_etxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/originloc_placeholder"/>
+
+    <TextView
+        android:id="@+id/destiny_label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/destinyloc_label" />
+
+    <AutoCompleteTextView
+        android:id="@+id/destiny_etxt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/destinyloc_placeholder"
+        android:layout_below="@+id/destiny_label"
+        android:layout_alignLeft="@+id/destiny_label" />
+
+</LinearLayout>
