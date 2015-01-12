@@ -6,6 +6,9 @@
         <item name="android:colorAccent">@color/accent_color</item>
         <item name="android:textColor">@color/text_color</item>
         <item name="android:textColorSecondary">@color/text_dark_color</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+
     </style>
 
 </resources>

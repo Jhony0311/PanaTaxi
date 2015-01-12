@@ -17,9 +17,11 @@ public class MainActivity extends ActionBarActivity {
         //Setting the toolbar
         Toolbar toolbar = (Toolbar) findViewById(R.id.activity_my_toolbar);
 
-        Log.d("LOG", String.valueOf(toolbar));
+        //Log.d("LOG", String.valueOf(toolbar));
 
         if (toolbar != null) {
+            toolbar.setLogo(getDrawable(R.drawable.ic_local_taxi_white_36dp));
+            toolbar.setTitle(getString(R.string.app_name));
             setSupportActionBar(toolbar);
         }
 
