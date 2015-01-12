@@ -20,17 +20,17 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    //Librerias standar en el SDK de Android:
-    //Necesario para usar Toolbar y configurar el Tema Material en V14+
+    //Standard libraries for SDK in this project:
+    //Library for use Material in API V14+
     compile 'com.android.support:appcompat-v7:21.0.2'
-    //Libreria para usar un RecyclerView
+    //Library for use RecyclerView
     compile 'com.android.support:recyclerview-v7:21.0.0'
 
-    //Librerias de terceros :
-
-    //Libreria para agregar un Floating Action Button
+    //Vendor libraries :
+    //Library for Floating Action Button
     compile 'com.getbase:floatingactionbutton:1.2.1'
+    //Library from Facebook to smooth animations
+    compile 'com.facebook.rebound:rebound:0.3.6'
 
-    //Libreria para volver circular una Imagen
-    compile 'de.hdodenhof:circleimageview:1.2.1'
+    //
 }
