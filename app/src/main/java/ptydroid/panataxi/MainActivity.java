@@ -21,7 +21,6 @@ public class MainActivity extends ActionBarActivity {
 
         if (toolbar != null) {
             setSupportActionBar(toolbar);
-
         }
 
 
