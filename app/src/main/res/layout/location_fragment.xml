@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:layout_marginLeft="16dp"
     android:layout_marginRight="16dp">
 
@@ -22,7 +22,7 @@
         android:id="@+id/origin_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/text_dark_color"
+        android:textColor="@color/text_color"
         android:textAppearance="?android:textAppearanceLarge"
         android:text="@string/originloc_label" />
 
@@ -30,12 +30,15 @@
         android:id="@+id/origin_etxt"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:hint="@string/originloc_placeholder"/>
 
     <TextView
         android:id="@+id/destiny_label"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+        android:textAppearance="?android:textAppearanceLarge"
         android:text="@string/destinyloc_label" />
 
     <AutoCompleteTextView

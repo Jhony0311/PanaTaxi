@@ -21,5 +21,8 @@
     <!-- Buttons -->
     <string name="passenger_label">Cantidad de pasajeros</string>
     <string name="piquera_label">Llamada a piquera</string>
+    <string name="title_activity_location_fragment">LocationFragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 </resources>
