@@ -23,7 +23,7 @@
         android:layout_marginBottom="16dp"
         fab:fab_icon="@drawable/ic_local_taxi_white_24dp"
         fab:fab_colorNormal="@color/accent_color"
-        fab:fab_colorPressed="@color/accent_color" />
+        fab:fab_colorPressed="@color/light_accent_color" />
 
     <LinearLayout
         android:layout_width="fill_parent"

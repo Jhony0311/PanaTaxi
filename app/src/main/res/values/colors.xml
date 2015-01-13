@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary_dark_color">#ff6f00</color>
-    <color name="primary_color">#ffca28</color>
-    <color name="accent_color">#00b0ff</color>
-    <color name="text_color">#fafafa</color>
-    <color name="text_dark_color">#000000</color>
+    <color name="primary_dark_color">#FFA000</color>
+    <color name="primary_color">#FFC107</color>
+    <color name="accent_color">#00B0FF</color>
+    <color name="text_color">#DE000000</color>
+    <color name="secondary_text_color">#8A000000</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="uidiv_color">#1E000000</color>
+    <color name="disable_color">#42000000</color>
+    <color name="light_accent_color">#4200B0FF</color>
 </resources>
