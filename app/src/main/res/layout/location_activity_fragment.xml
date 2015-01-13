@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ptydroid.panataxi.LocationActivityFragment"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -10,11 +11,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="16dp"
         android:textColor="@color/accent_color"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textAllCaps="true"
         android:text="@string/title_location"
+        android:gravity="center_vertical"
+        android:drawablePadding="8dp"
         android:drawableLeft="@drawable/ic_map_black_36dp"
         android:id="@+id/location_title" />
 
@@ -22,6 +25,7 @@
         android:id="@+id/origin_label"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:textColor="@color/text_color"
         android:textAppearance="?android:textAppearanceLarge"
         android:text="@string/originloc_label" />
@@ -37,6 +41,7 @@
         android:id="@+id/destiny_label"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
         android:textColor="@color/text_color"
         android:textAppearance="?android:textAppearanceLarge"
         android:text="@string/destinyloc_label" />
