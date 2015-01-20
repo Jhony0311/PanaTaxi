@@ -35,7 +35,8 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="@string/originloc_placeholder"/>
+        android:hint="@string/originloc_placeholder"
+        android:theme="@style/AppTheme" />
 
     <TextView
         android:id="@+id/destiny_label"
@@ -52,6 +53,7 @@
         android:layout_height="wrap_content"
         android:hint="@string/destinyloc_placeholder"
         android:layout_below="@+id/destiny_label"
-        android:layout_alignLeft="@+id/destiny_label" />
+        android:layout_alignLeft="@+id/destiny_label"
+        android:autoText="true" />
 
 </LinearLayout>
