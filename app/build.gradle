@@ -31,6 +31,8 @@ dependencies {
     compile 'com.getbase:floatingactionbutton:1.2.1'
     //Library from Facebook to smooth animations
     compile 'com.facebook.rebound:rebound:0.3.6'
+    //Library for ORM
+    compile 'io.realm:realm-android:0.80.0'
 
     //
 }

@@ -2,9 +2,11 @@
 <resources>
 
     <string name="app_name">PanaTaxi</string>
+    <string name="action_settings">test</string>
     <!-- Buttons -->
     <string name="calculate_button">CALCULAR</string>
     <!-- Titles -->
+    <string name="title_activity_location_activity_fragment">Localizacion</string>
     <string name="title_location">Localización</string>
     <string name="title_details">Cargos Especiales</string>
     <string name="title_datehour">Fecha / Hora</string>
