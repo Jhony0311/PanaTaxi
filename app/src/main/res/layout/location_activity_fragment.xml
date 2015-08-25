@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:textColor="@color/accent_color"
+        android:textColor="@color/primary_color"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:textAllCaps="true"
         android:text="@string/title_location"
@@ -21,39 +21,38 @@
         android:drawableLeft="@drawable/ic_map_black_36dp"
         android:id="@+id/location_title" />
 
-    <TextView
-        android:id="@+id/origin_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:textColor="@color/primary_text"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:text="@string/originloc_label" />
 
-    <AutoCompleteTextView
-        android:id="@+id/origin_etxt"
-        android:layout_width="fill_parent"
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
-        android:hint="@string/originloc_placeholder"
-        android:theme="@style/AppTheme" />
+        android:id="@+id/origin_text_widget">
+        <AutoCompleteTextView
+            android:id="@+id/origin_etxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:hint="@string/originloc_label"
+            android:theme="@style/PanaTaxiTheme"
+            style="@style/PanaTaxiTheme" />
+    </android.support.design.widget.TextInputLayout>
 
-    <TextView
-        android:id="@+id/destiny_label"
-        android:layout_width="fill_parent"
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
-        android:textColor="@color/primary_text"
-        android:textAppearance="?android:textAppearanceLarge"
-        android:text="@string/destinyloc_label" />
+        android:layout_marginBottom="16dp"
+        android:id="@+id/destiny_text_widget">
+        <AutoCompleteTextView
+            android:id="@+id/destiny_etxt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/destinyloc_label"
+            android:layout_below="@+id/destiny_label"
+            android:autoText="true"
+            style="@style/PanaTaxiTheme"
+            android:theme="@style/PanaTaxiTheme" />
+    </android.support.design.widget.TextInputLayout>
 
-    <AutoCompleteTextView
-        android:id="@+id/destiny_etxt"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/destinyloc_placeholder"
-        android:layout_below="@+id/destiny_label"
-        android:layout_alignLeft="@+id/destiny_label"
-        android:autoText="true" />
 
 </LinearLayout>

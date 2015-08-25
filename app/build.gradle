@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.0.2"
+    compileSdkVersion 22
+    buildToolsVersion "22.0.1"
 
     defaultConfig {
         applicationId "ptydroid.panataxi"
-        minSdkVersion 15
-        targetSdkVersion 21
+        minSdkVersion 16
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }
@@ -22,17 +22,11 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     //Standard libraries for SDK in this project:
     //Library for use Material in API V14+
-    compile 'com.android.support:appcompat-v7:21.0.2'
-    //Library for use RecyclerView
-    compile 'com.android.support:recyclerview-v7:21.0.0'
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    //Library to support widgets
+    compile 'com.android.support:design:22.2.1'
 
     //Vendor libraries :
-    //Library for Floating Action Button
-    compile 'com.getbase:floatingactionbutton:1.2.1'
     //Library from Facebook to smooth animations
     compile 'com.facebook.rebound:rebound:0.3.6'
-    //Library for ORM
-    compile 'io.realm:realm-android:0.80.0'
-
-    //
 }

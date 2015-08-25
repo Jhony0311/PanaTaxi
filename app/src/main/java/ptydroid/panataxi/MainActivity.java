@@ -1,11 +1,10 @@
 package ptydroid.panataxi;
 
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.widget.Toolbar;
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,18 +13,12 @@ public class MainActivity extends ActionBarActivity {
         //Set the layout
         setContentView(R.layout.activity_main);
 
-        //Setting the toolbar
-        Toolbar toolbar = (Toolbar) findViewById(R.id.activity_my_toolbar);
-
-        //Log.d("LOG", String.valueOf(toolbar));
-
-        if (toolbar != null) {
-            toolbar.setLogo(getDrawable(R.drawable.ic_local_taxi_white_36dp));
-            toolbar.setTitle(getString(R.string.app_name));
-            setSupportActionBar(toolbar);
+        if(savedInstanceState == null) {
+            getSupportFragmentManager().beginTransaction()
+                    .add(R.id.fragment_container, new LocationActivityFragment())
+                    .add(R.id.fragment_container, new DateTimeActivityFragment())
+                    .commit();
         }
-
-
 
     }
 
