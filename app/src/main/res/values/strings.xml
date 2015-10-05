@@ -5,6 +5,10 @@
     <string name="action_settings">test</string>
     <!-- Buttons -->
     <string name="calculate_button">CALCULAR</string>
+    <!-- Tags -->
+    <string name="location_tag">location_fragment</string>
+    <string name="datetime_tag">datetime_fragment</string>
+    <string name="details_tag">details_fragment</string>
     <!-- Titles -->
     <string name="title_activity_location_activity_fragment">Localizacion</string>
     <string name="title_location">Localización</string>

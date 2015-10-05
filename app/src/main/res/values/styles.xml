@@ -1,7 +1,18 @@
 <resources>
-    <style name="PanaTaxiTheme" parent="@style/AppTheme" >
-        <item name="colorAccent">@color/accent_color</item>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/primary_color</item>
         <item name="colorPrimaryDark">@color/primary_dark_color</item>
+        <item name="colorAccent">@color/accent_color</item>
+
+        <!-- Theme color properties to override -->
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        <item name="colorControlNormal">@color/primary_light</item>
+        <item name="colorControlHighlight">@color/accent_color</item>
+        <item name="colorControlActivated">@color/primary_color</item>
     </style>
+
 </resources>

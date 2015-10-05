@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ptydroid.panataxi" >
+    package="co.hyphendated.panataxi" >
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
@@ -16,9 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".LocationActivityFragment"
-            android:label="@string/title_activity_location_activity_fragment" >
+        <activity android:name=".ui.DateHourFragment" >
+        </activity>
+        <activity android:name=".ui.DetailsFragment" >
         </activity>
     </application>
 

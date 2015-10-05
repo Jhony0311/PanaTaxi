@@ -1,19 +1,38 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:fab="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main_container"
+    android:id="@+id/root"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent" tools:context=".MainActivity">
 
-    <LinearLayout
-        android:id="@+id/fragment_container"
-        android:orientation="vertical"
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/fragmentContainer"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
 
+        </LinearLayout>
 
+        <include
+            android:id="@+id/toolbarActionbar"
+            layout="@layout/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android.id="@+id/calculateBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+
+            android:layout_marginBottom="@dimen/btn_fab_margins"
+            android:layout_marginRight="@dimen/btn_fab_margins"/>
+
+    </android.support.design.widget.CoordinatorLayout>
 
 </RelativeLayout>
