@@ -22,9 +22,9 @@
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:layout_marginTop="@dimen/activity_vertical_margin"/>
 
-    <Switch
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" />
+    <android.support.v7.widget.SwitchCompat
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
 
     <SeekBar
         android:layout_width="fill_parent"
