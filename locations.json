@@ -1,0 +1,898 @@
+[
+    {
+        "id": "",
+        "index": "",
+        "name": "24 de Diciembre",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "9 de Enero",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Agua Buena",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Albrook",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Alcalde Diaz",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Altos de Cerro Viento",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Altos de Diablo",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Altos de Tocumen",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Altos de las Acacias",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Altos del Hipódromo",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Ancón",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Auto Motor",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Barriada Tocumen",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Bella Vista",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Bethania",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Brisas del Golf",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Cabuyita",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Calidonia",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Calzada de Amador",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Centro Comercial Los Andes N°2",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Cerro Batea",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Cerro Cocobolo",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Cerro Viento",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Cerro Viento Rural",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Chanis",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Chivo Chivo",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Chorrillo",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Cipreses",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Ciudad Belén",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Ciudad Bolivar",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Ciudad Jardin las Mañanitas",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Ciudad Radial",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Club del Golf",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Colinas de Cerro Batea",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Colonia Infantil",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Colonia Las Lomas",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Condado del Rey",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Costa del Este",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Don Bosco",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Don Bosco",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Dorasol",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "El Chimborazo (Juan diaz)",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "El Crisol",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "El Cristo",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "El Dorado",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "El Guayabito",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "El Martillo",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "El Sitio",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "El Tecal",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Fátima",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Hotel Holiday Inn",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "La Bandera",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "La Boca",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "La Cabima",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "La Concepción",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "La Doña",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "La Esmeralda",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "La Pulida",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "La Siesta",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "La Unión",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Las Cumbres",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Las Lajas",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Las Mañanitas",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Las Sabanas",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Las Trancas",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Llano Bonito",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Los Andes N° 1",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Los Andes N°2",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Los Libertadores",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Los Pueblos",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Lucha Franco",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Mano de Piedra",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Monte Rico",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Morelos",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Naranjal",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Nueva California",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Nueva Libia despues del puente",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Nuevo Veranillo",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Pan de Azucar",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Panamá Viejo",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Pedregal Anasal",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Pedregalito",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Punta Fresca",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Punta Pacífica",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Punta Paitilla",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Quebrada Ancha",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Rana de Oro",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Residencial Alta Vista",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Residencial Altos de San Pedro",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Ruben Dario Paredes",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Río Abajo",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Samaria",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "San Antonio",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "San Felipe",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "San Fernando",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "San Isidro",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "San Joaquin",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "San José",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "San Miguel",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "San Pedro",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "San Vicente",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Santa Ana",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Santa Clara",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Santa Ines",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Santa Librada",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Santa Marta",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Santa Pera",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Sector BS",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Sonsonate",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Templo Bahai",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Teremar Plaza Tocumen",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Tinajita",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Torrijos Carter",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Universidad",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Urb Dos Rios",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Urb el Bosque del Hipodromo",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Valle de San Isidro",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Valle de Urracá",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Versalles Campestre",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Villa Adelina",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Villa Catalina",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Villa Grecia",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Villa Lucre",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Villa Venus",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Villa Zaita",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Villa de las Fuentes",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Villalobos (Hasta el Naranjal)",
+        "type": "",
+        "parent": ""
+    },
+    {
+        "id": "",
+        "index": "",
+        "name": "Vista Hermosa",
+        "type": "",
+        "parent": ""
+    }
+]
