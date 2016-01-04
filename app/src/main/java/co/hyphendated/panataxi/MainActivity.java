@@ -1,5 +1,6 @@
 package co.hyphendated.panataxi;
 
+import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
@@ -15,15 +16,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setToolbar(toolbar);
+        //setToolbar(toolbar);
         setContentView(R.layout.activity_main);
 
         //Setting fragments
-        getSupportFragmentManager().beginTransaction()
-                .add(R.id.fragmentContainer, new DetailsFragment(), "details")
-                .add(R.id.fragmentContainer, new LocationFragment(), "location")
-                .add(R.id.fragmentContainer, new DateHourFragment(), "datetime")
-                .commit();
+        FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+        ft.add(R.id.fragmentContainer, new LocationFragment(), "fragment_one");
+        ft.add(R.id.fragmentContainer, new DateHourFragment(), "fragment_two");
+        ft.add(R.id.fragmentContainer, new DetailsFragment(), "fragment_three");
+        ft.commit();
     }
 
     public void setToolbar(Toolbar toolbar) {
