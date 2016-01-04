@@ -10,9 +10,7 @@ public class Location {
     private String parent;
     private String type;
 
-    public Location() {
-
-    }
+    public Location() { }
 
     public String getType() {
         return type;

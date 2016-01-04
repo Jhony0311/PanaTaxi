@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setToolbar(toolbar);
+        setToolbar(toolbar);
         setContentView(R.layout.activity_main);
 
         //Setting fragments

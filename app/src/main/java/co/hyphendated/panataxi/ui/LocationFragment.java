@@ -40,8 +40,8 @@ public class LocationFragment extends Fragment {
         locationsData.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                System.out.println(dataSnapshot.getValue());
-                Location location = dataSnapshot.getValue(Location.class);
+                //System.out.println(dataSnapshot.getValue());
+                //Location locationItem = dataSnapshot.getValue(Location.class);
                 //Log.v("LOCATION", location.getName());
             }
 
