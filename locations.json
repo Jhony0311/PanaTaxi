@@ -109,7 +109,7 @@
         "index": "5",
         "name": "Brisas del Golf",
         "type": "sector",
-        "parent": "sur-5"
+        "parent": "sur-f"
     },
     {
         "id": "17",
@@ -449,450 +449,443 @@
     },
     {
         "id": "65",
-        "index": "",
+        "index": "4",
         "name": "Las Trancas",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-e"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "66",
+        "index": "2",
         "name": "Llano Bonito",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-b"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "67",
+        "index": "1",
         "name": "Los Andes N° 1",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-a"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "68",
+        "index": "2",
         "name": "Los Andes N°2",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-b"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "69",
+        "index": "6",
         "name": "Los Libertadores",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-6"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "70",
+        "index": "4",
         "name": "Los Pueblos",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-e"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "71",
+        "index": "8",
         "name": "Lucha Franco",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-i"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "72",
+        "index": "6",
         "name": "Mano de Piedra",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-f"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "73",
+        "index": "9",
         "name": "Monte Rico",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-j"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "74",
+        "index": "9",
         "name": "Morelos",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-j"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "75",
+        "index": "6",
         "name": "Naranjal",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-g"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "76",
+        "index": "5",
         "name": "Nueva California",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-f"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "77",
+        "index": "8",
         "name": "Nueva Libia despues del puente",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-i"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "78",
+        "index": "2",
         "name": "Nuevo Veranillo",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-b"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "79",
+        "index": "1",
         "name": "Pan de Azucar",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-a"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "80",
+        "index": "6",
         "name": "Panamá Viejo",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-6"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "81",
+        "index": "6",
         "name": "Pedregal Anasal",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-g"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "82",
+        "index": "5",
         "name": "Pedregalito",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-e"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "83",
+        "index": "1",
         "name": "Punta Fresca",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-a"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "84",
+        "index": "5",
         "name": "Punta Pacífica",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-5"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "85",
+        "index": "4",
         "name": "Punta Paitilla",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-4"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "86",
+        "index": "10",
         "name": "Quebrada Ancha",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-l"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "87",
+        "index": "6",
         "name": "Rana de Oro",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-g"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "88",
+        "index": "3",
         "name": "Residencial Alta Vista",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-c"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "89",
+        "index": "3",
         "name": "Residencial Altos de San Pedro",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-c"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "90",
+        "index": "10",
         "name": "Ruben Dario Paredes",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-k"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "100",
+        "index": "5",
         "name": "Río Abajo",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-6"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "101",
+        "index": "3",
         "name": "Samaria",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-c"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "102",
+        "index": "5",
         "name": "San Antonio",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-f"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "103",
+        "index": "2",
         "name": "San Felipe",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-2"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "104",
+        "index": "3",
         "name": "San Fernando",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-c"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "105",
+        "index": "4",
         "name": "San Isidro",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-d"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "106",
+        "index": "6",
         "name": "San Joaquin",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-g"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "107",
+        "index": "2",
         "name": "San José",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-b"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "108",
+        "index": "3",
         "name": "San Miguel",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-3"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "109",
+        "index": "3",
         "name": "San Pedro",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-c"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "110",
+        "index": "10",
         "name": "San Vicente",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-l"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "111",
+        "index": "2",
         "name": "Santa Ana",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-2"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "112",
+        "index": "1",
         "name": "Santa Clara",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-a"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "113",
+        "index": "4",
         "name": "Santa Ines",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-e"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "114",
+        "index": "5",
         "name": "Santa Librada",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-e"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "115",
+        "index": "6",
         "name": "Santa Marta",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-f"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "115",
+        "index": "3",
         "name": "Santa Pera",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-c"
     },
     {
-        "id": "",
-        "index": "",
-        "name": "Sector BS",
-        "type": "",
-        "parent": ""
-    },
-    {
-        "id": "",
-        "index": "",
+        "id": "116",
+        "index": "6",
         "name": "Sonsonate",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-f"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "117",
+        "index": "5",
         "name": "Templo Bahai",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-e"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "118",
+        "index": "6",
         "name": "Teremar Plaza Tocumen",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-g"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "119",
+        "index": "4",
         "name": "Tinajita",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-d"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "120",
+        "index": "6",
         "name": "Torrijos Carter",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-f"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "121",
+        "index": "4",
         "name": "Universidad",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-4"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "122",
+        "index": "10",
         "name": "Urb Dos Rios",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-k"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "123",
+        "index": "2",
         "name": "Urb el Bosque del Hipodromo",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-b"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "124",
+        "index": "5",
         "name": "Valle de San Isidro",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-e"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "125",
+        "index": "6",
         "name": "Valle de Urracá",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-f"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "126",
+        "index": "7",
         "name": "Versalles Campestre",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-h"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "127",
+        "index": "8",
         "name": "Villa Adelina",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-i"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "128",
+        "index": "6",
         "name": "Villa Catalina",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-g"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "129",
+        "index": "10",
         "name": "Villa Grecia",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-l"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "130",
+        "index": "1",
         "name": "Villa Lucre",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-a"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "131",
+        "index": "3",
         "name": "Villa Venus",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-c"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "132",
+        "index": "7",
         "name": "Villa Zaita",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-h"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "133",
+        "index": "6",
         "name": "Villa de las Fuentes",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-6"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "134",
+        "index": "7",
         "name": "Villalobos (Hasta el Naranjal)",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-h"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "135",
+        "index": "10",
         "name": "Vista Hermosa",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-k"
     }
 ]
