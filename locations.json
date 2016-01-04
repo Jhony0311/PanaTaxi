@@ -1,454 +1,454 @@
 [
     {
-        "id": "",
-        "index": "",
+        "id": "1",
+        "index": "10",
         "name": "24 de Diciembre",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-k"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "2",
+        "index": "1",
         "name": "9 de Enero",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-a"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "3",
+        "index": "10",
         "name": "Agua Buena",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-l"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "4",
+        "index": "3",
         "name": "Albrook",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-3"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "5",
+        "index": "9",
         "name": "Alcalde Diaz",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-j"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "6",
+        "index": "4",
         "name": "Altos de Cerro Viento",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-e"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "7",
+        "index": "3",
         "name": "Altos de Diablo",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-3"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "8",
+        "index": "10",
         "name": "Altos de Tocumen",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-k"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "9",
+        "index": "6",
         "name": "Altos de las Acacias",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-g"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "10",
+        "index": "3",
         "name": "Altos del Hipódromo",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-c"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "11",
+        "index": "2",
         "name": "Ancón",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-2"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "12",
+        "index": "7",
         "name": "Auto Motor",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-7"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "13",
+        "index": "9",
         "name": "Barriada Tocumen",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-j"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "14",
+        "index": "4",
         "name": "Bella Vista",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-4"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "15",
+        "index": "5",
         "name": "Bethania",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-5"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "16",
+        "index": "5",
         "name": "Brisas del Golf",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-5"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "17",
+        "index": "10",
         "name": "Cabuyita",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-k"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "18",
+        "index": "3",
         "name": "Calidonia",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-3"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "19",
+        "index": "1",
         "name": "Calzada de Amador",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-1"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "20",
+        "index": "3",
         "name": "Centro Comercial Los Andes N°2",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-c"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "21",
+        "index": "4",
         "name": "Cerro Batea",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-d"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "22",
+        "index": "6",
         "name": "Cerro Cocobolo",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-f"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "23",
+        "index": "4",
         "name": "Cerro Viento",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-e"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "24",
+        "index": "4",
         "name": "Cerro Viento Rural",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-e"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "25",
+        "index": "7",
         "name": "Chanis",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-7"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "26",
+        "index": "6",
         "name": "Chivo Chivo",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-f"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "27",
+        "index": "2",
         "name": "Chorrillo",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-2"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "28",
+        "index": "7",
         "name": "Cipreses",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-h"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "29",
+        "index": "9",
         "name": "Ciudad Belén",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-j"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "30",
+        "index": "9",
         "name": "Ciudad Bolivar",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-j"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "31",
+        "index": "9",
         "name": "Ciudad Jardin las Mañanitas",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-j"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "32",
+        "index": "5",
         "name": "Ciudad Radial",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-f"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "33",
+        "index": "8",
         "name": "Club del Golf",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-i"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "34",
+        "index": "5",
         "name": "Colinas de Cerro Batea",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-e"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "35",
+        "index": "7",
         "name": "Colonia Infantil",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-h"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "36",
+        "index": "7",
         "name": "Colonia Las Lomas",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-h"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "37",
+        "index": "1",
         "name": "Condado del Rey",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-a"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "38",
+        "index": "7",
         "name": "Costa del Este",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-7"
     },
     {
-        "id": "",
-        "index": "",
-        "name": "Don Bosco",
-        "type": "",
-        "parent": ""
+        "id": "39",
+        "index": "6",
+        "name": "Don Bosco (Juan Diaz)",
+        "type": "sector",
+        "parent": "sur-g"
     },
     {
-        "id": "",
-        "index": "",
-        "name": "Don Bosco",
-        "type": "",
-        "parent": ""
+        "id": "40",
+        "index": "3",
+        "name": "Don Bosco (San Miguelito)",
+        "type": "sector",
+        "parent": "norte-c"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "41",
+        "index": "3",
         "name": "Dorasol",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-c"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "42",
+        "index": "4",
         "name": "El Chimborazo (Juan diaz)",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-e"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "43",
+        "index": "2",
         "name": "El Crisol",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-b"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "44",
+        "index": "1",
         "name": "El Cristo",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-a"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "45",
+        "index": "5",
         "name": "El Dorado",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-5"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "46",
+        "index": "5",
         "name": "El Guayabito",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-f"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "47",
+        "index": "1",
         "name": "El Martillo",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-a"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "48",
+        "index": "2",
         "name": "El Sitio",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-b"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "49",
+        "index": "10",
         "name": "El Tecal",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-l"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "50",
+        "index": "1",
         "name": "Fátima",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-a"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "51",
+        "index": "9",
         "name": "Hotel Holiday Inn",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-j"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "52",
+        "index": "8",
         "name": "La Bandera",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-i"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "53",
+        "index": "1",
         "name": "La Boca",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-1"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "54",
+        "index": "8",
         "name": "La Cabima",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-i"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "55",
+        "index": "5",
         "name": "La Concepción",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-f"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "56",
+        "index": "9",
         "name": "La Doña",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-j"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "57",
+        "index": "10",
         "name": "La Esmeralda",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-l"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "58",
+        "index": "1",
         "name": "La Pulida",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-a"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "59",
+        "index": "9",
         "name": "La Siesta",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-j"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "60",
+        "index": "10",
         "name": "La Unión",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-l"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "61",
+        "index": "8",
         "name": "Las Cumbres",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-i"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "62",
+        "index": "8",
         "name": "Las Lajas",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "norte-i"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "63",
+        "index": "9",
         "name": "Las Mañanitas",
-        "type": "",
-        "parent": ""
+        "type": "sector",
+        "parent": "sur-j"
     },
     {
-        "id": "",
-        "index": "",
+        "id": "64",
+        "index": "5",
         "name": "Las Sabanas",
-        "type": "",
-        "parent": ""
+        "type": "zona",
+        "parent": "zona-5"
     },
     {
-        "id": "",
+        "id": "65",
         "index": "",
         "name": "Las Trancas",
         "type": "",
