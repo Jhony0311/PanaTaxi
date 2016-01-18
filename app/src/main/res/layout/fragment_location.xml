@@ -30,7 +30,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin">
 
-        <AutoCompleteTextView
+        <android.support.v7.widget.AppCompatAutoCompleteTextView
             android:id="@+id/origin_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,7 +46,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin">
 
-        <AutoCompleteTextView
+        <android.support.v7.widget.AppCompatAutoCompleteTextView
             android:id="@+id/destiny_input"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

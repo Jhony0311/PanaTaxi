@@ -2,6 +2,7 @@ package co.hyphendated.panataxi.ui;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.widget.AppCompatAutoCompleteTextView;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,31 +19,35 @@ import co.hyphendated.panataxi.models.Location;
 
 public class LocationFragment extends Fragment {
 
-    private AutoCompleteTextView originEditText, destinyEditText;
+    private AppCompatAutoCompleteTextView originEditText, destinyEditText;
+    private Firebase locationsData;
+    private String firebaseUrl = "https://panataxihyphenated.firebaseio.com";
+    private String firebaseChild = "locations";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_location, container, false);
         Firebase.setAndroidContext(getActivity());
+        Firebase.getDefaultConfig().setPersistenceEnabled(true);
         uiInit(root);
         getData();
         return root;
     }
 
     public void uiInit(View root) {
-        originEditText = (AutoCompleteTextView) root.findViewById(R.id.origin_input);
-        destinyEditText = (AutoCompleteTextView) root.findViewById(R.id.destiny_input);
+        originEditText = (AppCompatAutoCompleteTextView) root.findViewById(R.id.origin_input);
+        destinyEditText = (AppCompatAutoCompleteTextView) root.findViewById(R.id.destiny_input);
     }
 
     public void getData() {
-        Firebase locationsData = new Firebase("https://panataxihyphenated.firebaseio.com/locations");
+        locationsData = new Firebase(firebaseUrl).child(firebaseChild);
 
         locationsData.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 //System.out.println(dataSnapshot.getValue());
-                //Location locationItem = dataSnapshot.getValue(Location.class);
-                //Log.v("LOCATION", location.getName());
+                Location locationItem = dataSnapshot.getValue(Location.class);
+                Log.v("LOCATION", locationItem.getName());
             }
 
             @Override

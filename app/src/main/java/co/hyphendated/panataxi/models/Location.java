@@ -12,6 +12,8 @@ public class Location {
 
     public Location() { }
 
+    public int getId() { return id; }
+
     public String getType() {
         return type;
     }
