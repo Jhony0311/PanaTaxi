@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical"
-    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -22,37 +22,53 @@
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         android:layout_marginTop="@dimen/activity_vertical_margin"/>
 
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/input_layout_origin"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/primary_text"
+        android:textAllCaps="true"
         android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin">
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/originloc_label"/>
 
-        <android.support.v7.widget.AppCompatAutoCompleteTextView
-            android:id="@+id/origin_input"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/originloc_label" />
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/origin_input"
+        android:layout_width="match_parent"
+        android:prompt="@string/originloc_label"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:theme="@style/AppTheme">
 
-    </android.support.design.widget.TextInputLayout>
+    </android.support.v7.widget.AppCompatSpinner>
 
-    <android.support.design.widget.TextInputLayout
-        android:id="@+id/input_layout_destiny"
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="@color/primary_text"
+        android:textAllCaps="true"
         android:paddingLeft="@dimen/activity_horizontal_margin"
-        android:paddingRight="@dimen/activity_horizontal_margin">
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:text="@string/destinyloc_label"/>
 
-        <android.support.v7.widget.AppCompatAutoCompleteTextView
-            android:id="@+id/destiny_input"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/destinyloc_label" />
+    <android.support.v7.widget.AppCompatSpinner
+        android:id="@+id/destiny_input"
+        android:layout_width="match_parent"
+        android:prompt="@string/destinyloc_label"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:theme="@style/AppTheme">
 
-    </android.support.design.widget.TextInputLayout>
+    </android.support.v7.widget.AppCompatSpinner>
 
     <include
         layout="@layout/divider"

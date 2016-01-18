@@ -3,10 +3,12 @@ package co.hyphendated.panataxi.ui;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.AppCompatAutoCompleteTextView;
+import android.support.v7.widget.AppCompatSpinner;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 
 import com.firebase.client.ChildEventListener;
@@ -19,10 +21,12 @@ import co.hyphendated.panataxi.models.Location;
 
 public class LocationFragment extends Fragment {
 
-    private AppCompatAutoCompleteTextView originEditText, destinyEditText;
+    private AppCompatSpinner originEditText, destinyEditText;
     private Firebase locationsData;
     private String firebaseUrl = "https://panataxihyphenated.firebaseio.com";
     private String firebaseChild = "locations";
+
+    //ArrayAdapter<Location> adapter = new ArrayAdapter<Location>(getActivity(), android.R.layout.simple_spinner_item, locationsData, );
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -35,8 +39,8 @@ public class LocationFragment extends Fragment {
     }
 
     public void uiInit(View root) {
-        originEditText = (AppCompatAutoCompleteTextView) root.findViewById(R.id.origin_input);
-        destinyEditText = (AppCompatAutoCompleteTextView) root.findViewById(R.id.destiny_input);
+        originEditText = (AppCompatSpinner) root.findViewById(R.id.origin_input);
+        destinyEditText = (AppCompatSpinner) root.findViewById(R.id.destiny_input);
     }
 
     public void getData() {
@@ -45,9 +49,9 @@ public class LocationFragment extends Fragment {
         locationsData.addChildEventListener(new ChildEventListener() {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
-                //System.out.println(dataSnapshot.getValue());
                 Location locationItem = dataSnapshot.getValue(Location.class);
-                Log.v("LOCATION", locationItem.getName());
+                //adapter.add(locationItem);
+                //Log.v("LOCATION", locationItem.getName());
             }
 
             @Override
