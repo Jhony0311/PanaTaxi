@@ -16,17 +16,21 @@ import com.firebase.client.DataSnapshot;
 import com.firebase.client.Firebase;
 import com.firebase.client.FirebaseError;
 
+import java.util.ArrayList;
+
+import co.hyphendated.panataxi.LocationsAdapter;
 import co.hyphendated.panataxi.R;
 import co.hyphendated.panataxi.models.Location;
 
 public class LocationFragment extends Fragment {
 
-    private AppCompatSpinner originEditText, destinyEditText;
+    private AppCompatSpinner originSpinner, destinySpinner;
     private Firebase locationsData;
     private String firebaseUrl = "https://panataxihyphenated.firebaseio.com";
     private String firebaseChild = "locations";
 
-    //ArrayAdapter<Location> adapter = new ArrayAdapter<Location>(getActivity(), android.R.layout.simple_spinner_item, locationsData, );
+    ArrayList<Location> locationsList = new ArrayList<Location>();
+    LocationsAdapter adapter = new LocationsAdapter(getActivity(), locationsList);
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -39,8 +43,10 @@ public class LocationFragment extends Fragment {
     }
 
     public void uiInit(View root) {
-        originEditText = (AppCompatSpinner) root.findViewById(R.id.origin_input);
-        destinyEditText = (AppCompatSpinner) root.findViewById(R.id.destiny_input);
+        originSpinner = (AppCompatSpinner) root.findViewById(R.id.origin_input);
+        destinySpinner = (AppCompatSpinner) root.findViewById(R.id.destiny_input);
+        originSpinner.setAdapter(adapter);
+        destinySpinner.setAdapter(adapter);
     }
 
     public void getData() {
@@ -50,7 +56,7 @@ public class LocationFragment extends Fragment {
             @Override
             public void onChildAdded(DataSnapshot dataSnapshot, String s) {
                 Location locationItem = dataSnapshot.getValue(Location.class);
-                //adapter.add(locationItem);
+                adapter.add(locationItem);
                 //Log.v("LOCATION", locationItem.getName());
             }
 
