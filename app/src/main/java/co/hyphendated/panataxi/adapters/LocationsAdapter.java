@@ -1,39 +1,46 @@
-package co.hyphendated.panataxi;
+package co.hyphendated.panataxi.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
 import java.util.ArrayList;
 
+import co.hyphendated.panataxi.R;
 import co.hyphendated.panataxi.models.Location;
 
 /**
  * Created by JonathanMartin on 01/17/2016.
  */
 public class LocationsAdapter extends ArrayAdapter<Location> {
-    Context context;
+    public LocationsAdapter(Context context, int resource, ArrayList<Location> items) {
+        super(context, resource, items);
+    }
 
-    public LocationsAdapter(Context context, ArrayList data) {
-        super(context, 0, data);
+    @Override
+    public View getDropDownView(int position, View convertView,ViewGroup parent) {
+        return getCustomView(position, convertView, parent);
     }
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        // Get the data item for this position
+        return getCustomView(position, convertView, parent);
+    }
+
+    public View getCustomView(int position, View convertView, ViewGroup parent) {
         Location location = getItem(position);
-        // Check if an existing view is being reused, otherwise inflate the view
-        if (convertView == null) {
-            convertView = LayoutInflater.from(getContext()).inflate(R.layout.location_view, parent, false);
+
+        if(convertView == null) {
+            convertView = LayoutInflater.from(this.getContext()).inflate(R.layout.location_view, parent, false);
         }
-        // Lookup view for data population
+
         TextView name = (TextView) convertView.findViewById(R.id.locationName);
-        // Populate the data into the template view using the data object
         name.setText(location.getName());
-        // Return the completed view to render on screen
+
         return convertView;
     }
 }

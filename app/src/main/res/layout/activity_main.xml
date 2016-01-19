@@ -1,9 +1,11 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/root"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" tools:context=".MainActivity">
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
 
     <include
         android:id="@+id/toolbarActionbar"
@@ -36,7 +38,10 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|end"
             android:layout_marginBottom="@dimen/btn_fab_margins"
-            android:layout_marginRight="@dimen/btn_fab_margins"/>
+            android:layout_marginRight="@dimen/btn_fab_margins"
+            app:rippleColor="@color/primary_color"
+            android:onClick="calcInit"
+            android:src="@drawable/ic_notification_time_to_leave" />
 
     </android.support.design.widget.CoordinatorLayout>
 
